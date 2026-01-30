@@ -1,0 +1,130 @@
+body {
+  background-color: #f4f6f8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.navbar {
+  background-color: #1f2328 !important;
+}
+
+.navbar-brand,
+.navbar .nav-link {
+  color: #f5f7fa !important;
+}
+
+.navbar .nav-link:hover {
+  color: #cfd6df !important;
+}
+
+.navbar .nav-link.active {
+  font-weight: 600;
+  border-bottom: 2px solid #ffffff44;
+}
+
+.container {
+  max-width: 1100px;
+}
+
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.about-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.about-card {
+  width: min(520px, 95%);
+}
+
+.about-card .card-img-top {
+  height: 260px;
+}
+
+.about-card .card-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #2b2f36;
+}
+
+.contact-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.contact-card {
+  width: min(520px, 95%);
+  background-color: #ffffff;
+  padding: 22px;
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.contact-card .form-control {
+  border-radius: 10px;
+}
+
+.contact-card .btn {
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #1f2328;
+  color: #f5f7fa;
+  text-align: center;
+  padding: 14px 0;
+}
+.card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+.product-card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.extra-text {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.extra-text.show {
+  max-height: 100px;
+  opacity: 1;
+}
