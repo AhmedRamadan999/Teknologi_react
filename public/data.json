@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Headphones",
+      "short": "High quality wireless headphones",
+      "details": "These headphones deliver clear sound, deep bass, and long battery life.",
+      "price": 59.99,
+      "image": "/Headphones.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Smartphone",
+      "short": "Modern smartphone with great camera",
+      "details": "Powerful smartphone with modern design, smooth performance, and a high-quality camera.",
+      "price": 699.99,
+      "image": "/public/smartphone.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Laptop",
+      "short": "Laptop for work and study",
+      "details": "Reliable laptop suitable for work, study, and everyday tasks.",
+      "price": 999.99,
+      "image": "/Laptop.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Smartwatch",
+      "short": "Track your health and fitness",
+      "details": "Smartwatch that helps you track fitness, heart rate, and notifications.",
+      "price": 199.99,
+      "image": "/smartwatch.jpg"
+    }
+  ]
+}
